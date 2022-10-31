@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(173, 177, 175) !important;
+}
+
+.dashboard{
+  height:60px;
+  width:80%;
+  background-color: rgb(58, 148, 233);
+  /* align-items: center; */
+}
+h5{
+  padding-top: 15px;
+  padding-right: 849px;
+  color: white;
+}
+
+.btn-nav{
+  padding-top:20px ;
+  margin-left: 150px;
+  font-size: 30px;
+
+}
+.btn-nav button{
+  margin-left: 20px;
+  border-radius: 25;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+
+.container img {
+  margin-left: 10%;
+  /* margin-bottom: 90%; */
+  /* margin-top: -520px; */
+  margin-bottom: 100px;
+  width: 90px;
+  height: 90px;
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.container p {
+  margin-left: 5%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 12px;
+
+}
+.container p .ads{
+  color: grey;
+  padding-top: 10px;
+}
+.list1{
+  display: flex;
+  margin-left: 15%;
+  text-align: left;
+  align-items: center;
+  font-size: 10px;
+  list-style-type: none;
+
+}
+.list1 li{
+  padding-left: 20px;
+}
+.litem{
+  border-radius: 5;
+    background-color: lightcoral;
+}
+
+.link1 :hover{
+  background-color: lightblue;
+}
+
+.row{
+  text-decoration: none;
+  align-items: center;
+ 
+  
+}
+.col-sm-8{
+  margin-left: 7%;
+  height: 100px !important ;
+  width: 700px !important;
+}
+.col-sm-4{
+  height: 100px !important ;
+  width: 355px !important;
+}
+
+.card{
+  margin-left: 1%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.card-title1{
+  margin-left: 5%;
+  color: blue;
+  padding-top: 20px;
+}
+.card-title{
+  margin-left: 5%;
+  color: black;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.list-group-item{
+  color: gray !important;
+  padding-bottom: 25px !important;
+}
+.ptag{
+  color: black;
+  font-size: 12px !important;
+}
+.btn {
+  margin-bottom: 10px !important;
+
+}
+
+.card-body a{
+  padding-left:80px  !important;
+  padding-right: 80px !important;
+}
+
+
+.card-img-top{
+  width: 500px !important;
+  display: flex;
+  margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.btn-nav button , .ul-list button{
+  text-decoration: none;
+}
+
+@media  screen and (min-width:100){
+  .App{
+    grid-template-columns: repeat(auto-fit);
+
+  }
+
+  .row{
+    flex-direction: column;
+    text-align: center;
+    min-width: 14rem;
+  }
+}
+
+.btn-nav h4{
+     /* margin-left: 15% !important; */
+     padding-right: 230px !important;
+}
+.ul-list{
+  text-style:none;
+}
+
+
